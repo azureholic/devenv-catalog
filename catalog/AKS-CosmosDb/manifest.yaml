@@ -1,0 +1,13 @@
+name: AKS-CosmosDb
+version: 1.0.0
+summary: Azure Kubernetes Service (AKS) with CosmosDb
+description: Deploys a Kubernetes Cluster with CosmosDb
+runner: ARM
+templatePath: azuredeploy.json
+parameters:
+- id: "location"
+  name: "location"
+  description: "Location to deploy the environment resources"
+  default: "westeurope"
+  type: "string"
+  required: false

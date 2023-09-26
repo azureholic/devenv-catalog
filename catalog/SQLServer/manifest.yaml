@@ -1,0 +1,6 @@
+name: Azure-SQL-MI
+version: 1.0.0
+summary: Azure SQL Managed Instance
+description: Deploys an Azure SQL Managed Instance to host your database.
+runner: ARM
+templatePath: azuredeploy.json
